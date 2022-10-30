@@ -11,29 +11,29 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://i.imgur.com/NbV89yv.png" style="width:40%; height:50%;"/>
+  <img height="200" src="https://i.imgur.com/NbV89yv.png" style="width:100%; height:50%;"/>
 </div>
 
 ###
 
 <div align="center">
-  <img height="200" src="https://i.imgur.com/O27ZOrC.png" style="width:60%; height:50%;"/>
+  <img height="200" src="https://i.imgur.com/O27ZOrC.png" style="width:100%; height:50%;"/>
 </div>
 
 ###
 
 <div align="center">
-  <img height="200" src="https://i.imgur.com/Vyx25Bu.png" style="width:80%; height:50%;"/>
+  <img height="200" src="https://i.imgur.com/Vyx25Bu.png" style="width:100%; height:50%;"/>
 </div>
 
 ###
 
 <div align="center">
-  <img height="200" src="https://i.imgur.com/lLvP8WQ.png" style="width:60%; height:50%;"/>
+  <img height="200" src="https://i.imgur.com/lLvP8WQ.png" style="width:100%; height:50%;"/>
 </div>
 
 ###
 
 <div align="center">
-  <img height="200" src="https://i.imgur.com/WdqNYLP.png" style="width:60%; height:50%;"/>
+  <img height="200" src="https://i.imgur.com/WdqNYLP.png" style="width:100%; height:50%;"/>
 </div>
