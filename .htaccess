@@ -1,0 +1,1 @@
+ErrorDocument 404 http://localhost/we-are-critic/create_error404.php

@@ -1,0 +1,91 @@
+<!doctype html><html lang = 'en'>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="./slick/slick.min.js"></script>
+        <script type="text/javascript" src="./js/slider.js"></script>
+        <script defer type="text/javascript" src="./js/script.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/../css/reset.css">
+        <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/login.css"/>
+        <title> Add Photo </title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li>
+                        <a href="./index.php">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Films</a>
+                        <ul class="sub_films__menu">
+                            <li><a href="#">New films</a></li>
+                            <li><a href="#">Movies this year</a></li>
+                            <li><a href="#">Movies of all time</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li> 
+                </ul>
+                <div class="search">
+                    <form method="POST" class="search-form">
+                        <input name="keyword" id="search-result" class="header-search-bar" type="text" placeholder="Искать здесь...">
+                        <a class="search__btn" type="submit">
+                            <img id="search__image" src="./img/search_icon.png" alt="Поиск">
+                        </a>
+                    </form>
+                </div>
+        
+        <div class="login__btns">
+            <a class="sign_in__btn" href="./create_login.php">Sign in</a>
+        </div>
+        
+            </nav>
+        </header>
+        <main>
+            <div class="galery-section-name">
+                <h2>Add Film To Galery</h2>
+            </div>
+            <div class="add-container">
+                <form action="/controllers/add.php" method="POST" enctype="multipart/form-data">
+                    <div class="add-info-fields">
+                        <div class="add-field-container">
+                            <p class="add-photo-galery-title">File</p>
+                            <div>
+                                <input class="film-cover-input" type="file" accept="image/jpeg, image/png"/ name="galery_image" id="file_id">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-film-container">
+                        <div class="add-photo-galery-container">
+                            <input name="add-film-button" class="add-film-button" type="submit" value="Submit"></input>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="socials">
+                <a href="#"><img src="./img/icon_telegram.svg" alt="Telegram icon"></a>
+                <a href="#"><img src="./img/icon_instagram.svg" alt="Instagram icon"></a>
+                <a href="#"><img src="./img/icon_twitter.svg" alt="Twitter icon"></a>
+            </div>
+            <nav class="bottom_menu">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQ</a>
+                <a href="#">About</a>
+            </nav>
+            <nav class="counter">
+                <span>Today hosts: 2</span>
+                <span>Today views: 5274</span>
+                <span>Total views: 5479</span>
+            </nav>
+        </footer></body></html>

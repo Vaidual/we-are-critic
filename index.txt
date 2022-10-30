@@ -1,0 +1,107 @@
+<!doctype html><html lang = 'en'><head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="./slick/slick.min.js"></script>
+        <script type="text/javascript" src="./js/slider.js"></script>
+        <script defer type="text/javascript" src="./js/script.js"></script>
+        <script defer type="text/javascript" src="./js/lightbox.min.js"></script>
+        <link rel="stylesheet" href="css/lightbox.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/64d58efce2.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/login.css"/>
+        <title>WeAreCritic</title>
+    </head><body>
+        <header class="header">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li>
+                        <a href="./index.php">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Films</a>
+                        <ul class="sub_films__menu">
+                            <li><a href="#">New films</a></li>
+                            <li><a href="#">Movies this year</a></li>
+                            <li><a href="#">Movies of all time</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li> 
+                </ul>
+                <div class="search">
+                    <form method="POST" class="search-form">
+                        <input name="keyword" id="search-result" class="header-search-bar" type="text" placeholder="Search here...">
+                        <a class="search__btn" type="submit">
+                            <img id="search__image" src="./img/search_icon.png" alt="Search">
+                        </a>
+                    </form>
+                </div>
+        
+        <div class="login__btns">
+            <a class="sign_in__btn" href="./create_login.php">Sign in</a>
+        </div>
+        
+            </nav>
+        </header>
+        <main>
+            <div id="container-login">
+                <div id="title">
+                    <i class="material-icons lock">lock</i> Login
+                </div>
+
+                <form action="./create_login.php" method="POST">
+                    <div class="input">
+                        <div class="input-addon">
+                            <i class="material-icons">face</i>
+                        </div>
+                        <input id="email" name="email" placeholder="Email" type="email" required class="validate" autocomplete="off">
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="input">
+                        <div class="input-addon">
+                            <i class="material-icons">vpn_key</i>
+                        </div>
+                        <input name="password" id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+                    </div>
+
+                    <div class="remember-me">
+                        <input type="checkbox">
+                        <span style="color: #DDD">Remember Me</span>
+                    </div>
+
+                    <input name="btn-login" type="submit" value="Log In" />
+                </form>
+
+                <div class="forgot-password">
+                    <a href="#">Forgot your password?</a>
+                </div>
+
+                <div class="register">
+                    Don't have an account yet?
+                    <a href="create_register.php"><button id="register-link">Register here</button></a>
+                </div>
+            </div>
+        </main><footer>
+            <div class="socials">
+                <a href="#"><img src="./img/icon_telegram.svg" alt="Telegram icon"></a>
+                <a href="#"><img src="./img/icon_instagram.svg" alt="Instagram icon"></a>
+                <a href="#"><img src="./img/icon_twitter.svg" alt="Twitter icon"></a>
+            </div>
+            <nav class="bottom_menu">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQ</a>
+                <a href="#">About</a>
+            </nav>
+            <nav class="counter">
+                <span>Today hosts: 1</span>
+                <span>Today views: 396</span>
+                <span>Total views: 7704</span>
+            </nav>
+        </footer></body></html>
