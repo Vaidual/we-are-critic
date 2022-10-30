@@ -6,6 +6,14 @@
 
 ###
 
+<h1 align="left">Usage</h1>
+
+###
+
+<p align="left">You can freely use full project.<br>You have change some "window.location" properties in scripts.js file and "header" function link in some php files because they use "http://localhost/we-are-critic..." url for navigation.</p>
+
+###
+
 <h1 align="left">Screenshots</h1>
 
 ###
