@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Web appliction where you can search for films to get more info about them</p>
+<p align="left">Web appliction where you can search for films to get more info about them.</p>
 
 ###
 
