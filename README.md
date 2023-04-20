@@ -35,7 +35,6 @@
 
 ###
 
-Profile Readme Generator
 <h1 align="left">Screenshots</h1>
 
 ###
